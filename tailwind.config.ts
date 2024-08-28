@@ -18,6 +18,5 @@ export default <Partial<Config>>{
   variants: {
     extend: {},
   },
-  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
   typography: typography_styles,
 };
