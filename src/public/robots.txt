@@ -1,1 +1,4 @@
-
+User-agent: *
+Disallow: /img/tutors/*
+Allow: /
+Sitemap: https://lvl42.de/sitemap.xml
