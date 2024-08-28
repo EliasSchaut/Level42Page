@@ -5,16 +5,16 @@ export default defineNuxtConfig({
   workspaceDir: '.',
   srcDir: './src',
   modules: [
-    '@nuxtjs/eslint-module',
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     '@nuxt/image',
     '@pinia/nuxt',
     '@pinia-plugin-persistedstate/nuxt',
+    '@nuxt/fonts',
   ],
 
-  eslint: {
-    eslintPath: '.eslintrc.js',
+  fonts: {
+    families: [{ name: 'Montserrat', provider: 'google' }],
   },
 
   colorMode: {
