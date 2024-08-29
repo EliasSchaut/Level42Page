@@ -10,10 +10,11 @@
 
     <p>
       E-Mail:
-      <a class="text-blue-300 underline" href="mailto:elias@schaut.dev"
+      <a
+        class="text-amber-600 underline dark:text-amber-500"
+        href="mailto:elias@schaut.dev"
         >elias@schaut.dev</a
       >
     </p>
   </div>
 </template>
-<script setup lang="ts"></script>

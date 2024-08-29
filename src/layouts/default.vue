@@ -1,17 +1,16 @@
 <template>
-  <Body class="bg-white text-gray-900 dark:bg-zinc-900 dark:text-white" />
-  <div class="selection:bg-amber-100 dark:selection:bg-amber-800">
-    <LayoutNav />
-    <main>
-      <slot />
-    </main>
-    <LayoutFooter />
-  </div>
+  <Body
+    class="bg-white text-gray-900 selection:bg-amber-100 dark:bg-zinc-900 dark:text-white dark:selection:bg-amber-800"
+  />
+  <LayoutNav />
+  <main>
+    <slot />
+  </main>
+  <LayoutFooter />
 </template>
 
 <style scoped>
-div {
-  font-family: Montserrat, sans-serif;
+* {
+  font-family: Montserrat, 'sans-serif';
 }
 </style>
-<script setup lang="ts"></script>

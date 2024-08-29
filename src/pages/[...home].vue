@@ -145,7 +145,7 @@
           />
           <LinkItem
             title="Offizieller Campusplan"
-            description="ist auch nicht so übersichtlich, hilft aber trotzdem."
+            description="ist auch nicht so übersichtlich, hilft aber trotzdem"
             href="https://www.kit.edu/campusplan/"
           />
         </div>
@@ -157,8 +157,13 @@
         <div class="flex flex-col space-y-3">
           <LinkItem
             title="Offizielles Vorlesungsverzeichnis"
-            description="Alle Module auf einem Blick."
+            description="Alle Module auf einem Blick"
             href="https://campus.studium.kit.edu/events/catalog.php"
+          />
+          <LinkItem
+            title="KIT-Ilias"
+            description="Lernplattform des KIT"
+            href="https://ilias.studium.kit.edu/"
           />
           <LinkItem
             title="Fachschaft Mathe/Info"
