@@ -42,63 +42,70 @@
       <li>
         <Tutor
           name="Adrian Junge"
-          title="3. Semester Master"
+          title="4. Semester Info Master"
           image_src="/svg/placeholder.svg"
         />
       </li>
       <li>
         <Tutor
           name="Daniel Scheerer"
-          title="1. Semester Master"
+          title="1. Semester Info Master"
           image_src="/svg/placeholder.svg"
         />
       </li>
       <li>
         <Tutor
           name="Eileen"
-          title="3. Semester Master"
+          title="3. Semester Info Master"
           image_src="/svg/placeholder.svg"
         />
       </li>
       <li>
         <Tutor
           name="Elias Schaut"
-          title="1. Semester Master"
+          title="1. Semester Info Master"
           image_src="/img/tutors/elias_schaut.png"
         />
       </li>
       <li>
         <Tutor
           name="Fabian Merz"
-          title="3. Semester Master"
+          title="3. Semester Info Master"
           image_src="/svg/placeholder.svg"
         />
       </li>
       <li>
         <Tutor
           name="Kaan Göbül"
-          title="1. Semester Master"
+          title="1. Semester Info Master"
           image_src="/svg/placeholder.svg"
         />
       </li>
       <li>
         <Tutor
           name="Lam Vo"
-          title="1. Semester Master"
+          title="1. Semester Info Master"
           image_src="/img/tutors/lam_vo.png"
         />
       </li>
       <li>
         <Tutor
+          name="Laura Blechschmidt"
+          title="5. Semester Info Bachelor"
+          image_src="/svg/placeholder.svg"
+        />
+      </li>
+      <li>
+        <Tutor
           name="Madlena Kollien"
-          title="1. Semester Master"
+          title="1. Semester WMathe Master"
           image_src="/svg/placeholder.svg"
         />
       </li>
       <li>
         <Tutor
           name="Paul Städter"
-          title="1. Semester Master"
+          title="1. Semester WMathe Master"
           image_src="/svg/placeholder.svg"
         />
       </li>
