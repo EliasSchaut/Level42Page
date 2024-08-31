@@ -4,15 +4,15 @@
     class="mx-auto my-16 flex flex-col items-center justify-center space-y-5 px-5"
   >
     <Glowing>
-      <img class="h-96" src="/img/lvl42_logo_full.png" alt="Level 42 Logo" />
+      <img class="h-60 sm:h-96" src="/img/lvl42_logo_full.png" alt="Level 42 Logo" />
     </Glowing>
-    <SectionTitle class="text-4xl">Level 42 – Das nächste Level</SectionTitle>
+    <SectionTitle class="text-4xl">Level&nbsp;42 – Das nächste Level</SectionTitle>
   </section>
 
   <!-- About -->
-  <section id="about" class="mx-auto">
-    <div class="flex justify-around">
-      <div class="w-[700px] text-left text-lg">
+  <section id="about" class="mx-auto px-5">
+    <div class="flex flex-col md:flex-row items-center space-x-4 space-y-5 justify-around">
+      <div class="lg:w-[700px] text-left text-lg">
         <b class="text-amber-600 dark:text-amber-500"
           >Hey! Wir sind die Master O-Phasen-Gruppe Level 42!</b
         ><br />
@@ -36,9 +36,9 @@
   </section>
 
   <!-- Tutors -->
-  <section id="tutors" class="mx-auto">
+  <section id="tutors" class="mx-auto px-5">
     <SectionTitle>Tutoren</SectionTitle>
-    <ul class="grid grid-cols-4 p-10">
+    <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       <li>
         <Tutor
           name="Adrian Junge"
@@ -50,6 +50,13 @@
         <Tutor
           name="Daniel Scheerer"
           title="1. Semester Info Master"
+          image_src="/svg/placeholder.svg"
+        />
+      </li>
+      <li>
+        <Tutor
+          name="Dominic Brestel"
+          title="3. Semester Info Master"
           image_src="/svg/placeholder.svg"
         />
       </li>
@@ -116,17 +123,15 @@
   <section id="program" class="mx-auto">
     <SectionTitle>Programm</SectionTitle>
     <iframe
-      class="mx-auto rounded-md"
+      class="mx-auto rounded-md px-5 lg:w-[900px] w-full h-[400px]"
       src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FBerlin&bgcolor=%23F6BF26&showTz=0&mode=WEEK&showTabs=0&showCalendars=0&showTitle=0&showPrint=0&showDate=0&showNav=0&src=ZTkwODM3Y2ZmZWI0ZGI3OTE4M2Y3ZDc4NDc0NGNiZjdhZDZhNjQ5NjE2M2E4YzNmMmJmYTk0ODdhN2MyM2Q2ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F6BF26&dates=20241014/20241020"
-      width="800"
-      height="600"
     ></iframe>
   </section>
 
   <!-- Links -->
   <section id="links" class="mx-auto mb-10 px-10">
     <SectionTitle>Dateien&nbsp;& Links</SectionTitle>
-    <div class="grid grid-cols-3 space-x-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 md:space-x-12 space-y-12 md:space-y-0">
       <div class="flex flex-col space-y-5">
         <h1 class="text-xl font-bold text-amber-600 dark:text-amber-500">
           O-Phase
@@ -200,4 +205,5 @@
     </div>
   </section>
 </template>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+</script>
