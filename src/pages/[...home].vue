@@ -55,6 +55,13 @@
       </li>
       <li>
         <Tutor
+          name="Dominic Brestel"
+          title="3. Semester Info Master"
+          image_src="/svg/placeholder.svg"
+        />
+      </li>
+      <li>
+        <Tutor
           name="Eileen"
           title="3. Semester Info Master"
           image_src="/svg/placeholder.svg"
@@ -198,3 +205,5 @@
     </div>
   </section>
 </template>
+<script setup lang="ts">
+</script>
