@@ -2,7 +2,7 @@
   <header>
     <nav>
       <div
-        class="flex items-center justify-between bg-amber-400 p-5 dark:bg-amber-500"
+        class="flex items-center justify-between bg-primary-400 p-5 dark:bg-primary-500"
       >
         <a class="text-3xl font-bold" href="/">Level&nbsp;42</a>
 
@@ -16,7 +16,7 @@
           </li>
         </ul>
       </div>
-      <div class="h-1 bg-amber-500 px-1 dark:bg-amber-400" />
+      <div class="h-1 bg-primary-500 px-1 dark:bg-primary-400" />
     </nav>
   </header>
 </template>

@@ -8,7 +8,7 @@
 div {
   background: radial-gradient(
     circle,
-    rgba(255, 191, 0, 1) 0%,
+    rgba(246, 92, 25, 1) 0%,
     rgba(255, 255, 255, 0) 70%
   );
 }
