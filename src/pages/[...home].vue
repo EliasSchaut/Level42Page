@@ -13,13 +13,13 @@
   <section id="about" class="mx-auto px-5">
     <div class="flex flex-col md:flex-row items-center space-x-4 space-y-5 justify-around">
       <div class="lg:w-[700px] text-left text-lg">
-        <b class="text-amber-600 dark:text-amber-500"
+        <b class="text-primary-600 dark:text-primary-500"
           >Hey! Wir sind die Master O-Phasen-Gruppe Level 42!</b
         ><br />
         Bereitet euch auf <i>das nächste Level</i> vor – unser Programm ist
         speziell auf Master-Erstis zugeschnitten! Dabei bieten wir:
         <ul
-          class="list-disc pl-6 marker:text-amber-600 marker:dark:text-amber-500"
+          class="list-disc pl-6 marker:text-primary-600 marker:dark:text-primary-500"
         >
           <li>Spannende Einblicke in Master-Themen</li>
           <li>Coole und entspannte Aktivitäten zum Kennenlernen</li>
@@ -28,8 +28,8 @@
         Wir freuen uns auf euch und stehen euch gerne mit Rat und Tat zur Seite.
       </div>
       <img
-        class="h-[184px] w-[220px]"
-        src="/img/logo_mushroom.png"
+        class="h-[184px] w-[220px] select-none"
+        src="/svg/lvl42_logo_full.svg"
         alt="Logo Mushroom"
       />
     </div>
@@ -124,7 +124,7 @@
     <SectionTitle>Programm</SectionTitle>
     <iframe
       class="mx-auto rounded-md px-5 lg:w-[900px] w-full h-[400px]"
-      src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FBerlin&bgcolor=%23F6BF26&showTz=0&mode=WEEK&showTabs=0&showCalendars=0&showTitle=0&showPrint=0&showDate=0&showNav=0&src=ZTkwODM3Y2ZmZWI0ZGI3OTE4M2Y3ZDc4NDc0NGNiZjdhZDZhNjQ5NjE2M2E4YzNmMmJmYTk0ODdhN2MyM2Q2ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F6BF26&dates=20241014/20241020"
+      src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FBerlin&bgcolor=%23f65c19&showTz=0&mode=WEEK&showTabs=0&showCalendars=0&showTitle=0&showPrint=0&showDate=0&showNav=0&src=ZTkwODM3Y2ZmZWI0ZGI3OTE4M2Y3ZDc4NDc0NGNiZjdhZDZhNjQ5NjE2M2E4YzNmMmJmYTk0ODdhN2MyM2Q2ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F6BF26&dates=20241014/20241020"
     ></iframe>
   </section>
 
@@ -133,7 +133,7 @@
     <SectionTitle>Dateien&nbsp;& Links</SectionTitle>
     <div class="grid grid-cols-1 md:grid-cols-3 md:space-x-12 space-y-12 md:space-y-0">
       <div class="flex flex-col space-y-5">
-        <h1 class="text-xl font-bold text-amber-600 dark:text-amber-500">
+        <h1 class="text-xl font-bold text-primary-600 dark:text-primary-500">
           O-Phase
         </h1>
         <div class="flex flex-col space-y-3">
@@ -156,7 +156,7 @@
         </div>
       </div>
       <div class="flex flex-col space-y-5">
-        <h1 class="text-xl font-bold text-amber-600 dark:text-amber-500">
+        <h1 class="text-xl font-bold text-primary-600 dark:text-primary-500">
           Rund um Studium
         </h1>
         <div class="flex flex-col space-y-3">
@@ -186,7 +186,7 @@
         </div>
       </div>
       <div class="flex flex-col space-y-5">
-        <h1 class="text-xl font-bold text-amber-600 dark:text-amber-500">
+        <h1 class="text-xl font-bold text-primary-600 dark:text-primary-500">
           Karlsruhe
         </h1>
         <div class="flex flex-col space-y-3">

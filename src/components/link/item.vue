@@ -2,7 +2,7 @@
   <div class="flex flex-col justify-start space-y-1 align-middle">
     <a
       :href="href"
-      class="text-lg font-semibold text-amber-500 dark:text-amber-600"
+      class="text-lg font-semibold text-primary-500 dark:text-primary-600"
     >
       {{ title }}</a
     >

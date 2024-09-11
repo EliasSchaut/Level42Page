@@ -8,7 +8,7 @@
       :alt="`image of ${name}`"
     />
     <div class="text-center">
-      <p class="text-lg font-bold text-amber-600 dark:text-amber-500">
+      <p class="text-lg font-bold text-primary-600 dark:text-primary-500">
         {{ name }}
       </p>
       <p>{{ title }}</p>

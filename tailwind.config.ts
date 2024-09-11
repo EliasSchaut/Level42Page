@@ -1,5 +1,6 @@
 import type { Config } from 'tailwindcss';
 
+import colors from 'tailwindcss/colors'
 import typography_styles from './typography';
 
 export default <Partial<Config>>{
@@ -13,7 +14,24 @@ export default <Partial<Config>>{
     './app.vue',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: {
+          '50': '#fff5ed',
+          '100': '#ffe9d5',
+          '200': '#fdceab',
+          '300': '#fbac76',
+          '400': '#f98142',
+          '500': '#f65c19',
+          '600': '#e8420e',
+          '700': '#c02f0e',
+          '800': '#982714',
+          '900': '#7b2313',
+          '950': '#420e08',
+        },
+        secondary: colors.zinc
+      }
+    },
   },
   variants: {
     extend: {},

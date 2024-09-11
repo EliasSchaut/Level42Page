@@ -11,7 +11,7 @@
     <p>
       E-Mail:
       <a
-        class="text-amber-600 underline dark:text-amber-500"
+        class="text-primary-600 dark:text-primary-500"
         href="mailto:elias@schaut.dev"
         >elias@schaut.dev</a
       >
