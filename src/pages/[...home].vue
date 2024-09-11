@@ -4,7 +4,7 @@
     class="mx-auto my-16 flex flex-col items-center justify-center space-y-5 px-5"
   >
     <Glowing>
-      <img class="h-60 sm:h-96" src="/img/lvl42_logo_full.png" alt="Level 42 Logo" />
+      <img class="h-60 sm:h-96" src="/svg/lvl42_logo_full.svg" alt="Level 42 Logo" />
     </Glowing>
     <SectionTitle class="text-4xl">Level&nbsp;42 – Das nächste Level</SectionTitle>
   </section>
@@ -29,7 +29,7 @@
       </div>
       <img
         class="h-[184px] w-[220px] select-none"
-        src="/svg/lvl42_logo_full.svg"
+        src="/img/logo_mushroom.png"
         alt="Logo Mushroom"
       />
     </div>
