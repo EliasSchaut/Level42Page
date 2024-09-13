@@ -9,7 +9,7 @@ div {
   background: radial-gradient(
     circle,
     rgba(246, 92, 25, 1) 0%,
-    rgba(255, 255, 255, 0) 70%
+    rgba(255, 255, 255, 0) 60%
   );
 }
 </style>

@@ -5,7 +5,7 @@
     content="Die Master O-Phasen-Gruppe der Fachschaft Mathe/Info (FSMI) am KIT"
   />
   <Meta name="keywords" content="o-phase, level42, kit, uni, karlsruhe" />
-  <Meta name="theme-color" content="#fdd72a" />
+  <Meta name="theme-color" content="#f65c19" />
   <Link
     rel="apple-touch-icon"
     sizes="180x180"
