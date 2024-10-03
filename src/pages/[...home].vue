@@ -4,28 +4,34 @@
     class="mx-auto my-16 flex flex-col items-center justify-center space-y-5 p-5"
   >
     <Glowing>
-      <img class="h-60 sm:h-96" src="/svg/lvl42_logo_full.svg" alt="Level 42 Logo" />
+      <img
+        class="h-60 sm:h-96"
+        src="/svg/lvl42_logo_full.svg"
+        alt="Level 42 Logo"
+      />
     </Glowing>
-    <SectionTitle class="text-4xl">Level&nbsp;42 – Das nächste Level</SectionTitle>
+    <SectionTitle class="text-4xl"
+      >Level&nbsp;42 – Das nächste Level
+    </SectionTitle>
   </section>
 
   <!-- About -->
   <section id="about" class="mx-auto px-5">
-    <div class="flex flex-col md:flex-row items-center space-x-4 space-y-5 justify-around">
-      <div class="lg:w-[700px] text-left text-lg">
+    <div
+      class="flex flex-col items-center justify-around space-x-4 space-y-5 md:flex-row"
+    >
+      <div class="text-left text-lg lg:w-[700px]">
         <b class="text-primary-600 dark:text-primary-500"
           >Hey! Wir sind die Master O-Phasen-Gruppe Level 42!</b
         ><br />
-        Bereitet euch auf <i>das nächste Level</i> vor – unser Programm ist
-        speziell auf Master-Erstis zugeschnitten! Dabei bieten wir:
-        <ul
-          class="list-disc pl-6 marker:text-primary-600 marker:dark:text-primary-500"
-        >
-          <li>Spannende Einblicke in Master-Themen</li>
-          <li>Coole und entspannte Aktivitäten zum Kennenlernen</li>
-          <li>Unterstützung von erfahrenen Master-Studierenden am KIT</li>
-        </ul>
-        Wir freuen uns auf euch und stehen euch gerne mit Rat und Tat zur Seite.
+        Ihr startet in den Master am KIT - mit uns seid ihr bereit für
+        <i>das nächste Level</i>! Neben Einblicken in das Masterstudium am KIT
+        geht es bei uns in der O-Phase vor allem darum, gleichgesinnte
+        Kommilitonen kennenzulernen. Dafür haben wir unter anderem einen
+        Cocktailabend, eine Kneipentour sowie sportlichere Aktivitäten wie den
+        Besuch bei Ninja World, einer Lasertag-Halle oder einem Bowling Center
+        und gemeinsame Essen geplant. Wir freuen uns auf euch und stehen euch
+        gerne mit Rat und Tat zur Seite.
       </div>
       <img
         class="h-[184px] w-[220px] select-none"
@@ -43,6 +49,13 @@
         <Tutor
           name="Adrian Junge"
           title="4. Semester Info Master"
+          image_src="/img/tutors/adrian_junge.png"
+        />
+      </li>
+      <li>
+        <Tutor
+          name="Chrissy Wenzel"
+          title="1. Semester Info Master"
           image_src="/svg/placeholder.svg"
         />
       </li>
@@ -57,12 +70,12 @@
         <Tutor
           name="Dominic Brestel"
           title="3. Semester Info Master"
-          image_src="/svg/placeholder.svg"
+          image_src="/img/tutors/dominic_brestel.png"
         />
       </li>
       <li>
         <Tutor
-          name="Eileen"
+          name="Eileen Fix"
           title="3. Semester Info Master"
           image_src="/svg/placeholder.svg"
         />
@@ -98,8 +111,8 @@
       <li>
         <Tutor
           name="Laura Blechschmidt"
-          title="5. Semester Info Bachelor"
-          image_src="/svg/placeholder.svg"
+          title="7. Semester Info im Mastervorzug"
+          image_src="/img/tutors/laura_blechschmidt.jpg"
         />
       </li>
       <li>
@@ -123,15 +136,17 @@
   <section id="program" class="mx-auto">
     <SectionTitle>Programm</SectionTitle>
     <iframe
-      class="mx-auto rounded-md px-5 lg:w-[900px] w-full h-[400px]"
-      src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FBerlin&bgcolor=%23f65c19&showTz=0&mode=WEEK&showTabs=0&showCalendars=0&showTitle=0&showPrint=0&showDate=0&showNav=0&src=ZTkwODM3Y2ZmZWI0ZGI3OTE4M2Y3ZDc4NDc0NGNiZjdhZDZhNjQ5NjE2M2E4YzNmMmJmYTk0ODdhN2MyM2Q2ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23F6BF26&dates=20241014/20241020"
+      class="mx-auto h-[400px] w-full rounded-md px-5 lg:h-[700px] lg:w-[900px]"
+      src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FBerlin&bgcolor=%23EF6C00&showTz=0&mode=WEEK&showTabs=0&showCalendars=0&showTitle=0&showPrint=0&showDate=0&showNav=0&src=ZTkwODM3Y2ZmZWI0ZGI3OTE4M2Y3ZDc4NDc0NGNiZjdhZDZhNjQ5NjE2M2E4YzNmMmJmYTk0ODdhN2MyM2Q2ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23EF6C00&dates=20241014/20241020"
     ></iframe>
   </section>
 
   <!-- Links -->
   <section id="links" class="mx-auto mb-10 px-10">
     <SectionTitle>Dateien&nbsp;& Links</SectionTitle>
-    <div class="grid grid-cols-1 md:grid-cols-3 md:space-x-12 space-y-12 md:space-y-0">
+    <div
+      class="grid grid-cols-1 space-y-12 md:grid-cols-3 md:space-x-12 md:space-y-0"
+    >
       <div class="flex flex-col space-y-5">
         <h1 class="text-xl font-bold text-primary-600 dark:text-primary-500">
           O-Phase
@@ -174,11 +189,13 @@
             title="Fachschaft Mathe/Info"
             description="Eure Vertretung gegenüber der Fakultät"
             href="https://www.fsmi.uni-karlsruhe.de/"
-          /><LinkItem
+          />
+          <LinkItem
             title="Allgemeiner Studierenden-Ausschuss (AStA)"
             description="Eure Vertretung gegenüber der Uni"
             href="https://www.asta-kit.de/"
-          /><LinkItem
+          />
+          <LinkItem
             title="Studierendenwerk Karlsruhe (StuWe)"
             description="Betreibt Mensa, Wohnheime und mehr"
             href="https://www.sw-ka.de/"
@@ -204,6 +221,29 @@
       </div>
     </div>
   </section>
+
+  <!-- Links -->
+  <section id="sponsors" class="mx-auto mb-10 px-10">
+    <SectionTitle>Sponsoren</SectionTitle>
+    <div
+      class="grid grid-cols-1 items-center space-y-12 md:grid-cols-3 md:space-x-12 md:space-y-0"
+    >
+      <a href="https://www.billy-boy.de/" target="_blank"
+        ><img
+          class="mx-auto h-44"
+          src="/img/sponsors/BillyBoy.png"
+          alt="Billy Boy Logo"
+      /></a>
+      <a href="https://andrena.de/" target="_blank"
+        ><img
+          class="mx-auto"
+          src="/img/sponsors/Andrena.png"
+          alt="Andrena Logo"
+      /></a>
+      <a href="https://fzi.de" target="_blank"
+        ><img class="mx-auto h-44" src="/img/sponsors/FZI.webp" alt="FZI Logo"
+      /></a>
+    </div>
+  </section>
 </template>
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
