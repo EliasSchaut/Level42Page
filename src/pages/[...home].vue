@@ -90,7 +90,7 @@
       <li>
         <Tutor
           name="Fabian Merz"
-          title="3. Semester Info Master"
+          title="2. Semester Info Master"
           image_src="/svg/placeholder.svg"
         />
       </li>
@@ -135,10 +135,23 @@
   <!-- Program -->
   <section id="program" class="mx-auto">
     <SectionTitle>Programm</SectionTitle>
-    <iframe
-      class="mx-auto h-[400px] w-full rounded-md px-5 lg:h-[700px] lg:w-[900px]"
-      src="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FBerlin&bgcolor=%23EF6C00&showTz=0&mode=WEEK&showTabs=0&showCalendars=0&showTitle=0&showPrint=0&showDate=0&showNav=0&src=ZTkwODM3Y2ZmZWI0ZGI3OTE4M2Y3ZDc4NDc0NGNiZjdhZDZhNjQ5NjE2M2E4YzNmMmJmYTk0ODdhN2MyM2Q2ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23EF6C00&dates=20241014/20241020"
-    ></iframe>
+    <div
+      class="mx-5 mb-4 flex flex-col items-center justify-center gap-6 text-center text-lg font-medium text-primary-600 dark:text-primary-400 md:flex-row"
+    >
+      <a
+        href="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FBerlin&bgcolor=%23EF6C00&showTz=0&mode=WEEK&showTabs=0&showCalendars=0&showTitle=0&showPrint=0&showDate=0&showNav=0&src=ZTkwODM3Y2ZmZWI0ZGI3OTE4M2Y3ZDc4NDc0NGNiZjdhZDZhNjQ5NjE2M2E4YzNmMmJmYTk0ODdhN2MyM2Q2ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23EF6C00&dates=20241014/20241020"
+        target="_blank"
+        >Detaillierter Wochenplan</a
+      >
+      <a
+        href="https://calendar.google.com/calendar/u/0?cid=ZTkwODM3Y2ZmZWI0ZGI3OTE4M2Y3ZDc4NDc0NGNiZjdhZDZhNjQ5NjE2M2E4YzNmMmJmYTk0ODdhN2MyM2Q2ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+        target="_blank"
+        >Wochenplan integrieren (Google)</a
+      >
+      <!--<a>Wochenplan herunterladen (iCal)</a>-->
+    </div>
+
+    <img class="m-auto px-8" src="/img/wochenplan.png" alt="wochenplan" />
   </section>
 
   <!-- Links -->
