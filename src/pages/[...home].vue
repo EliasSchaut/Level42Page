@@ -56,7 +56,7 @@
         <Tutor
           name="Chrissy Wenzel"
           title="1. Semester Info Master"
-          image_src="/svg/placeholder.svg"
+          image_src="/img/tutors/chrissy_wenzel.jpg"
         />
       </li>
       <li>
@@ -91,14 +91,14 @@
         <Tutor
           name="Fabian Merz"
           title="2. Semester Info Master"
-          image_src="/svg/placeholder.svg"
+          image_src="/img/tutors/fabian_merz.png"
         />
       </li>
       <li>
         <Tutor
           name="Kaan Göbül"
           title="1. Semester Info Master"
-          image_src="/svg/placeholder.svg"
+          image_src="/img/tutors/kaan_goebuel.png"
         />
       </li>
       <li>
@@ -117,16 +117,9 @@
       </li>
       <li>
         <Tutor
-          name="Madlena Kollien"
-          title="1. Semester WMathe Master"
-          image_src="/svg/placeholder.svg"
-        />
-      </li>
-      <li>
-        <Tutor
           name="Paul Städter"
           title="1. Semester WMathe Master"
-          image_src="/svg/placeholder.svg"
+          image_src="/img/tutors/paul_staedter.png"
         />
       </li>
     </ul>
@@ -148,7 +141,10 @@
         target="_blank"
         >Wochenplan integrieren (Google)</a
       >
-      <!--<a>Wochenplan herunterladen (iCal)</a>-->
+      <a
+        href="https://calendar.google.com/calendar/ical/e90837cffeb4db79183f7d784744cbf7ad6a6496163a8c3f2bfa9487a7c23d6e%40group.calendar.google.com/public/basic.ics"
+        >Wochenplan herunterladen (iCal)</a
+      >
     </div>
 
     <img class="m-auto px-8" src="/img/wochenplan.png" alt="wochenplan" />
@@ -239,7 +235,7 @@
   <section id="sponsors" class="mx-auto mb-10 px-10">
     <SectionTitle>Sponsoren</SectionTitle>
     <div
-      class="grid grid-cols-1 items-center space-y-12 md:grid-cols-3 md:space-x-12 md:space-y-0"
+      class="-mt-8 flex w-full flex-col items-center justify-center md:flex-row md:space-x-48 md:space-y-0"
     >
       <a href="https://www.billy-boy.de/" target="_blank"
         ><img
@@ -252,9 +248,6 @@
           class="mx-auto"
           src="/img/sponsors/Andrena.png"
           alt="Andrena Logo"
-      /></a>
-      <a href="https://fzi.de" target="_blank"
-        ><img class="mx-auto h-44" src="/img/sponsors/FZI.webp" alt="FZI Logo"
       /></a>
     </div>
   </section>
