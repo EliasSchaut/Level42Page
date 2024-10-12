@@ -63,7 +63,7 @@
         <Tutor
           name="Daniel Scheerer"
           title="1. Semester Info Master"
-          image_src="/svg/placeholder.svg"
+          image_src="/img/tutors/daniel_scheerer.jpg"
         />
       </li>
       <li>
@@ -77,7 +77,7 @@
         <Tutor
           name="Eileen Fix"
           title="3. Semester Info Master"
-          image_src="/svg/placeholder.svg"
+          image_src="/img/tutors/sun.png"
         />
       </li>
       <li>
