@@ -76,7 +76,7 @@
       <li>
         <Tutor
           name="Eileen Fix"
-          title="3. Semester Info Master"
+          title="4. Semester Info Master"
           image_src="/img/tutors/sun.png"
         />
       </li>
