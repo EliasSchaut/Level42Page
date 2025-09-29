@@ -1,20 +1,30 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  compatibilityDate: '2024-04-03',
+  compatibilityDate: '2025-09-29',
   devtools: { enabled: true },
   workspaceDir: '.',
-  srcDir: './src',
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     '@nuxt/image',
     '@pinia/nuxt',
-    '@pinia-plugin-persistedstate/nuxt',
+    'pinia-plugin-persistedstate/nuxt',
     '@nuxt/fonts',
   ],
 
+  typescript: {
+    typeCheck: true,
+  },
+
   fonts: {
-    families: [{ name: 'Montserrat', provider: 'google' }],
+    families: [{ name: 'Montserrat', provider: 'local' }],
+  },
+
+  tailwindcss: {
+    cssPath: [`~/assets/css/tailwind.css`],
+    config: {},
+    viewer: true,
+    exposeConfig: false,
   },
 
   colorMode: {
@@ -24,22 +34,8 @@ export default defineNuxtConfig({
     storageKey: 'nuxt-color-mode',
   },
 
-  tailwindcss: {
-    configPath: 'tailwind.config.ts',
-  },
-
-  postcss: {
-    plugins: {
-      tailwindcss: {},
-      autoprefixer: {},
-    },
-  },
-
-  pinia: {
-    autoImports: ['defineStore'],
-  },
-
-  piniaPersistedstate: {
+  piniaPluginPersistedstate: {
+    storage: 'cookies',
     cookieOptions: {
       maxAge: 60 * 60 * 24 * 30,
     },

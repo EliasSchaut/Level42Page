@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+@layer theme, base, components, utilities;
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --breakpoint-xs: 475px;
+    --font-display: "Montserrat", "sans-serif";
+
+    --color-prime-50:  #fff5ed;
+    --color-prime-100: #ffe9d5;
+    --color-prime-200: #fdceab;
+    --color-prime-300: #fbac76;
+    --color-prime-400: #f98142;
+    --color-prime-500: #f65c19;
+    --color-prime-600: #e8420e;
+    --color-prime-700: #c02f0e;
+    --color-prime-800: #982714;
+    --color-prime-900: #7b2313;
+    --color-prime-950: #420e08;
+
+    --color-second-50: var(--color-gray-50);
+    --color-second-100: var(--color-gray-100);
+    --color-second-200: var(--color-gray-200);
+    --color-second-300: var(--color-gray-300);
+    --color-second-400: var(--color-gray-400);
+    --color-second-500: var(--color-gray-500);
+    --color-second-600: var(--color-gray-600);
+    --color-second-700: var(--color-gray-700);
+    --color-second-800: var(--color-gray-800);
+    --color-second-900: var(--color-gray-900);
+    --color-second-950: var(--color-gray-950);
+}
+
+button {
+    @apply hover:cursor-pointer;
+}
