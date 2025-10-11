@@ -8,14 +8,19 @@
 
         <ul class="flex items-center space-x-5 text-lg font-semibold">
           <li class="hidden sm:list-item">
-            <a href="/#about">Über&nbsp;uns</a>
+            <a href="/#about" v-html="$t('nav.about')" />
           </li>
-          <li class="hidden sm:list-item"><a href="/#tutors">Tutoren</a></li>
-          <li class="hidden sm:list-item"><a href="/#program">Programm</a></li>
-          <li class="hidden sm:list-item"><a href="/#links">Links</a></li>
-          <li>
-            <SettingTheme />
+          <li class="hidden sm:list-item">
+            <a href="/#tutors">{{ $t('nav.tutors') }}</a>
           </li>
+          <li class="hidden sm:list-item">
+            <a href="/#program">{{ $t('nav.program') }}</a>
+          </li>
+          <li class="hidden sm:list-item">
+            <a href="/#links">{{ $t('nav.links') }}</a>
+          </li>
+          <SettingTheme />
+          <SettingLang />
         </ul>
       </div>
       <div class="bg-prime-500 dark:bg-prime-400 h-1 px-1" />

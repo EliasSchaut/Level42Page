@@ -1,0 +1,58 @@
+{
+  "common": {
+    "lang": {
+      "de": "Deutsch",
+      "en": "Englisch"
+    },
+    "modal": {
+      "close": "Schließen",
+      "go_back": "Gehe zurück"
+    },
+    "theme": {
+      "dark": "Dunkel",
+      "light": "Hell",
+      "system": "System"
+    }
+  },
+  "footer": {
+    "home": "Startseite",
+    "imprint": "Impressum",
+    "privacy": "Datenschutz",
+    "resources": "Ressourcen",
+    "source": "Quellcode",
+    "title": "Footer"
+  },
+  "imprint": {
+    "contact": "Kontakt",
+    "declaration": "Angaben gemäß § 5 TMG",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "title": "Impressum"
+  },
+  "nav": {
+    "about": "Über&nbsp;uns",
+    "tutors": "Tutoren",
+    "program": "Programm",
+    "links": "Links",
+    "home": "Start"
+  },
+  "privacy": {
+    "cookies": {
+      "body": "Diese Website verwendet keine Analyse-Tools oder sonstiges Tracking. Es werden ausschließlich funktionale Cookies eingesetzt. Dabei handelt es sich um kleine Textdateien, die Ihr Webbrowser auf Ihrem Endgerät speichert. Diese Cookies dienen dazu, bestimmte Einstellungen – etwa Sprache oder Darstellung – zu speichern und Sie bei einem erneuten Besuch wiederzuerkennen. Dadurch bleiben angemeldete Sitzungen erhalten und Sie müssen sich nicht bei jedem Besuch erneut einloggen. Die Cookies verbleiben bis zu einem Jahr auf Ihrem Gerät, sofern Sie diese nicht manuell löschen. In den Einstellungen moderner Webbrowser können Sie das Setzen von Cookies überwachen, einschränken oder vollständig unterbinden. Viele Browser lassen sich auch so konfigurieren, dass Cookies beim Schließen automatisch gelöscht werden. Bitte beachten Sie, dass das Deaktivieren von Cookies die Funktionalität dieser Website einschränken kann.",
+      "title": "Analytics/Cookies/Externe-Ressourcen u.ä.?"
+    },
+    "data": {
+      "body": "Beim einfachen Besuch dieser Website werden ausschließlich die unten aufgeführten Cookies erfasst. Diese Cookies werden nicht auf dem Server gespeichert, sondern ausschließlich lokal auf Ihrem Endgerät abgelegt. Auf der Website befinden sich Schaltflächen mit dem Hinweis: „Durch Klicken bestätigst du die Datenschutzerklärung“. Mit dem Anklicken dieser Schaltflächen werden die von Ihnen auf der Website eingegebenen Daten an den Server übermittelt und dort gespeichert. Weitere Informationen zu diesem Vorgang finden Sie im nächsten Abschnitt. Der Zugriff auf diese Daten ist ausschließlich dem im Impressum genannten Betreiber der Website vorbehalten. Die Daten werden ausschließlich zur Bearbeitung Ihrer Anfrage verwendet und nicht ohne Ihre ausdrückliche Zustimmung an Dritte weitergegeben. Eine Zustimmung zur öffentlichen Einsicht Ihrer personenbezogenen Daten kann nach der Anmeldung über die Schaltfläche „Öffentlich in Gästeliste“ erteilt werden. In diesem Fall sind alle von Ihnen angegebenen Daten öffentlich einsehbar. Die Erhebung dieser Daten ist grundsätzlich erforderlich, um die Veranstaltung angemessen planen zu können. Sämtliche gespeicherten Daten werden spätestens eine Woche nach Ende der Veranstaltung unwiderruflich gelöscht.",
+      "title": "Welche Daten werden von dieser Website erfasst?"
+    },
+    "registration": {
+      "body": "Wenn Sie ein Formular absenden, werden die eingegebenen Daten verschlüsselt an einen Server in Frankfurt am Main (Deutschland) übertragen und dort sicher in einer Datenbank gespeichert. Gespeichert werden in erster Linie die Daten, die Sie sichtbar im Formular eingeben. Darüber hinaus werden lediglich zwei zusätzliche Informationen erfasst: eine anonyme Nutzer-ID sowie der Zeitpunkt der Registrierung. Die Website bietet außerdem die Möglichkeit, sich über externe Anbieter (z. B. Google) anzumelden. Wenn Sie sich über eine solche Schaltfläche registrieren, erhält die Website Zugriff auf Ihre dort hinterlegte E-Mail-Adresse sowie auf öffentlich zugängliche Profildaten. Dabei wird ausschließlich Ihre E-Mail-Adresse gespeichert und für die Registrierung bzw. Anmeldung verwendet. Auf persönliche Anfrage an die im Impressum angegebene E-Mail-Adresse des Betreibers können alle gespeicherten personenbezogenen Daten übermittelt werden.",
+      "title": "Wie werden die angegebenen Daten verarbeitet und gespeichert?"
+    },
+    "rights": {
+      "body": "Nach DSGVO und BDSG kannst du jederzeit Auskunft, Aktualisierung, Sperrung oder Löschung aller deiner Daten verlangen. Dein Ansprechpartner hierfür ist der oben genannte Betreiber dieser Webseite. Außerdem bin ich verpflichtet, dich an dein Recht zu erinnern, dieser Zustimmung jederzeit zu widersprechen und dich ggf. bei einer Aufsichtsbehörde über mich zu beschweren.",
+      "title": "Was sind meine Rechte?"
+    },
+    "title": "Datenschutzerklärung"
+  }
+}

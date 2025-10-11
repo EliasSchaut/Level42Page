@@ -1,47 +1,52 @@
 <template>
-  <Dropdown
-    :items="[
-      {
-        label: 'Hell',
-        callback: () => settings.setTheme('light'),
-        icon: SunIcon,
-      },
-      {
-        label: 'Dunkel',
-        callback: () => settings.setTheme('dark'),
-        icon: MoonIcon,
-      },
-      {
-        label: 'System',
-        callback: () => settings.setTheme('system'),
-        icon: ComputerDesktopIcon,
-      },
-    ]"
-  >
-    <SunIcon
+  <div class="flex items-center">
+    <button
       v-if="settings.theme === 'light'"
-      class="h-5 w-5 text-prime-800"
-      aria-hidden="true"
-    />
-    <MoonIcon
+      @click="settings.setTheme('dark')"
+    >
+      <SunIcon
+        class="text-second-900 group-hover:text-second-500 dark:text-second-100 h-6 w-6"
+        aria-hidden="true"
+      />
+    </button>
+    <button
       v-else-if="settings.theme === 'dark'"
-      class="h-5 w-5 text-prime-800"
-      aria-hidden="true"
-    />
-    <ComputerDesktopIcon
-      v-else
-      class="h-5 w-5 text-prime-800"
-      aria-hidden="true"
-    />
-  </Dropdown>
+      @click="settings.setTheme('system')"
+    >
+      <MoonIcon
+        class="text-second-900 group-hover:text-second-500 dark:text-second-100 h-6 w-6"
+        aria-hidden="true"
+      />
+    </button>
+    <button v-else @click="settings.setTheme('light')">
+      <ComputerDesktopIcon
+        class="text-second-900 group-hover:text-second-500 dark:text-second-100 h-6 w-6"
+        aria-hidden="true"
+      />
+    </button>
+  </div>
 </template>
 
-<script setup lang="ts">
+<script lang="ts">
 import {
-  SunIcon,
-  MoonIcon,
   ComputerDesktopIcon,
+  MoonIcon,
+  SunIcon,
 } from '@heroicons/vue/24/outline';
 import { settingsStore } from '~/store/settings';
-const settings = settingsStore();
+
+export default defineComponent({
+  name: 'SettingTheme',
+  methods: { ComputerDesktopIcon, MoonIcon, SunIcon },
+  components: {
+    ComputerDesktopIcon,
+    MoonIcon,
+    SunIcon,
+  },
+  setup() {
+    return {
+      settings: settingsStore(),
+    };
+  },
+});
 </script>

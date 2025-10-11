@@ -20,17 +20,17 @@
     --color-prime-900: #7b2313;
     --color-prime-950: #420e08;
 
-    --color-second-50: var(--color-gray-50);
-    --color-second-100: var(--color-gray-100);
-    --color-second-200: var(--color-gray-200);
-    --color-second-300: var(--color-gray-300);
-    --color-second-400: var(--color-gray-400);
-    --color-second-500: var(--color-gray-500);
-    --color-second-600: var(--color-gray-600);
-    --color-second-700: var(--color-gray-700);
-    --color-second-800: var(--color-gray-800);
-    --color-second-900: var(--color-gray-900);
-    --color-second-950: var(--color-gray-950);
+    --color-second-50: var(--color-zinc-50);
+    --color-second-100: var(--color-zinc-100);
+    --color-second-200: var(--color-zinc-200);
+    --color-second-300: var(--color-zinc-300);
+    --color-second-400: var(--color-zinc-400);
+    --color-second-500: var(--color-zinc-500);
+    --color-second-600: var(--color-zinc-600);
+    --color-second-700: var(--color-zinc-700);
+    --color-second-800: var(--color-zinc-800);
+    --color-second-900: var(--color-zinc-900);
+    --color-second-950: var(--color-zinc-950);
 }
 
 button {

@@ -29,9 +29,8 @@
         geht es bei uns in der O-Phase vor allem darum, gleichgesinnte
         Kommilitonen kennenzulernen. Dafür haben wir unter anderem einen
         Cocktailabend, eine Kneipentour sowie sportlichere Aktivitäten wie den
-        Besuch bei Ninja World, einer Lasertag-Halle oder einem Bowling Center
-        und gemeinsame Essen geplant. Wir freuen uns auf euch und stehen euch
-        gerne mit Rat und Tat zur Seite.
+        Besuch bei Ninja World, oder dem Europabad und gemeinsame Essen geplant.
+        Wir freuen uns auf euch und stehen euch gerne mit Rat und Tat zur Seite.
       </div>
       <img
         class="h-[184px] w-[220px] select-none"
@@ -112,14 +111,14 @@
         <Tutor
           name="Lukas Zetto"
           title="3. Semester Info Master"
-          image_src="/img/tutors/placeholder.png"
+          image_src="/img/tutors/lukas_zetto.png"
         />
       </li>
       <li>
         <Tutor
           name="Max Wurthmann"
           title="3. Semester Info Master"
-          image_src="/img/tutors/placeholder.png"
+          image_src="/img/tutors/max_wurthmann.png"
         />
       </li>
       <li>
@@ -133,7 +132,7 @@
         <Tutor
           name="Nick Poser"
           title="3. Semester Info Master"
-          image_src="/img/tutors/placeholder.png"
+          image_src="/img/tutors/nick_poser.png"
         />
       </li>
       <li>
@@ -141,13 +140,6 @@
           name="Paul Städter"
           title="3. Semester WMathe Master"
           image_src="/img/tutors/paul_staedter.png"
-        />
-      </li>
-      <li>
-        <Tutor
-          name="Tim Drozniak"
-          title="2. Semester Info Master"
-          image_src="/img/tutors/placeholder.png"
         />
       </li>
     </ul>
