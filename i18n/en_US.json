@@ -4,17 +4,11 @@
       "de": "German",
       "en": "English"
     },
+    "tagline": "The next Level",
     "theme": {
       "dark": "Dark",
       "light": "Light",
       "system": "System"
-    },
-    "tagline": "The next Level"
-  },
-  "home": {
-    "about": {
-      "title": "",
-      "desc": ""
     }
   },
   "footer": {
@@ -25,6 +19,81 @@
     "source": "Source Code",
     "title": "Footer"
   },
+  "home": {
+    "about": {
+      "desc": "You’re starting your Master’s at KIT – with us, you’ll be ready for the next level! In addition to insights into the Master’s program at KIT, our orientation phase is all about getting to know like-minded fellow students. For that, we’ve planned a cocktail evening, a pub crawl, and more active events like visits to Ninja World, Europabad, and shared meals. We’re excited to meet you and are happy to help you with advice and support.",
+      "title": "Hey! We are the Master Orientation Group Level 42!"
+    },
+    "links": {
+      "karlsruhe": {
+        "kvv": {
+          "desc": "Public transport with an online ticket shop and up-to-date information on disruptions or detours",
+          "title": "Karlsruhe Transport Association (KVV)"
+        },
+        "title": "Karlsruhe",
+        "z10": {
+          "desc": "The self-managed student center with a bar on Zähringerstraße 10",
+          "title": "Z10"
+        }
+      },
+      "o-phase": {
+        "asta": {
+          "desc": "Accommodation in HaDiKo (Oststadt) for everyone who doesn’t yet have a place to stay in Karlsruhe during the orientation phase",
+          "title": "AStA Emergency Accommodation"
+        },
+        "map": {
+          "desc": "Not the clearest map, but still helpful",
+          "title": "Official Campus Map"
+        },
+        "title": "Orientation Phase",
+        "website": {
+          "desc": "The official website of the Mathematics/Computer Science student council for the orientation phase",
+          "title": "o-phase.com"
+        }
+      },
+      "study": {
+        "asta": {
+          "desc": "Your representation to the university",
+          "title": "General Student Committee (AStA)"
+        },
+        "cms": {
+          "desc": "All modules at a glance",
+          "title": "Official Course Catalog"
+        },
+        "fsmi": {
+          "desc": "Your representation to the faculty",
+          "title": "Mathematics/Computer Science Student Council"
+        },
+        "ilias": {
+          "desc": "KIT’s learning platform",
+          "title": "KIT-ILIAS"
+        },
+        "sw-ka": {
+          "desc": "Operates cafeterias, dorms, and more",
+          "title": "Karlsruhe Student Union (StuWe)"
+        },
+        "title": "Around Your Studies"
+      },
+      "title": "Files & Links"
+    },
+    "program": {
+      "plan": {
+        "detailed": "Detailed Weekly Schedule",
+        "google": "Add Weekly Schedule (Google)",
+        "ical": "Download Weekly Schedule (iCal)"
+      },
+      "title": "Program"
+    },
+    "sponsors": {
+      "title": "Sponsors"
+    },
+    "tutors": {
+      "computer_science": "Computer Science",
+      "master": "Master’s",
+      "semester": "Semester",
+      "title": "Tutors"
+    }
+  },
   "imprint": {
     "contact": "Contact",
     "declaration": "Information according to § 5 TMG",
@@ -34,10 +103,10 @@
   },
   "nav": {
     "about": "About",
-    "tutors": "Tutors",
-    "program": "Program",
+    "home": "Home",
     "links": "Links",
-    "home": "Home"
+    "program": "Program",
+    "tutors": "Tutors"
   },
   "privacy": {
     "cookies": {

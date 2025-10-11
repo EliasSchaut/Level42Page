@@ -1,7 +1,7 @@
 <template>
   <div class="m-10">
-    <h1 class="mb-4 text-2xl font-bold">Impressum</h1>
-    Angaben gemäß § 5 TMG<br />
+    <h1 class="mb-4 text-2xl font-bold">{{ $t('imprint.title') }}</h1>
+    {{ $t('imprint.declaration') }}<br />
     <p class="my-2">
       Elias Lorenz Schaut<br />
       Klosterweg 28<br />
@@ -9,7 +9,7 @@
     </p>
 
     <p>
-      E-Mail:
+      {{ $t('imprint.email') }}:
       <a
         class="text-prime-600 dark:text-prime-500"
         href="mailto:elias@schaut.dev"

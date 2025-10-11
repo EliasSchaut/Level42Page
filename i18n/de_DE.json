@@ -4,86 +4,11 @@
       "de": "Deutsch",
       "en": "Englisch"
     },
+    "tagline": "Das nächste Level",
     "theme": {
       "dark": "Dunkel",
       "light": "Hell",
       "system": "System"
-    },
-    "tagline": "Das nächste Level"
-  },
-  "home": {
-    "about": {
-      "title": "Hey! Wir sind die Master O-Phasen-Gruppe Level 42!",
-      "desc": "Ihr startet in den Master am KIT - mit uns seid ihr bereit für das nächste Level! Neben Einblicken in das Masterstudium am KIT geht es bei uns in der O-Phase vor allem darum, gleichgesinnte Kommilitonen kennenzulernen. Dafür haben wir unter anderem einen Cocktailabend, eine Kneipentour sowie sportlichere Aktivitäten wie den Besuch bei Ninja World, oder dem Europabad und gemeinsame Essen geplant. Wir freuen uns auf euch und stehen euch gerne mit Rat und Tat zur Seite."
-    },
-    "tutors": {
-      "title": "Tutoren",
-      "semester": "Semester",
-      "master": "Master",
-      "computer_science": "Informatik"
-    },
-    "program": {
-      "title": "Programm",
-      "plan": {
-        "detailed": "Detaillierter Wochenplan",
-        "google": "Wochenplan integrieren (Google)",
-        "ical": "Wochenplan herunterladen (iCal)"
-      }
-    },
-    "links": {
-      "title": "Dateien&nbsp;& Links",
-      "o-phase": {
-        "title": "O-Phase",
-        "website": {
-          "title": "o-phase.com",
-          "desc": "Die offizielle Website der Fachschaft Mathe/Info zur O-Phase"
-        },
-        "asta": {
-          "title": "AStA Notunterkünfte",
-          "desc": "Unterkünfte im HaDiKo (Oststadt) für alle, die während der O-Phase noch keinen Schlafplatz in KA haben"
-        },
-        "map": {
-          "title": "Offizieller Campusplan",
-          "desc": "Ist auch nicht so übersichtlich, hilft aber trotzdem"
-        }
-      },
-      "study": {
-        "title": "Rund ums Studium",
-        "cms": {
-          "title": "Offizielles Vorlesungsverzeichnis",
-          "desc": "Alle Module auf einem Blick"
-        },
-        "ilias": {
-          "title": "KIT-ILIAS",
-          "desc": "Lernplattform des KIT"
-        },
-        "fsmi": {
-          "title": "Fachschaft Mathe/Info",
-          "desc": "Eure Vertretung gegenüber der Fakultät"
-        },
-        "asta": {
-          "title": "Allgemeiner Studierenden-Ausschuss (AStA)",
-          "desc": "Eure Vertretung gegenüber der Uni"
-        },
-        "sw-ka": {
-          "title": "Studierendenwerk Karlsruhe (StuWe)",
-          "desc": "Betreibt Mensa, Wohnheime und mehr"
-        }
-      },
-      "karlsruhe": {
-        "title": "Karlsruhe",
-        "z10": {
-          "title": "Z10",
-          "desc": "Das selbstverwaltete Studierendenzentrum mit Bar in der Zähringerstraße 10"
-        },
-        "kvv": {
-          "title": "Karlsruher Verkehrsverbund (KVV)",
-          "desc": "Öffentlicher Nahverkehr mit Online-Ticketshop und aktueller Störungs- bzw. Umleitungsübersicht"
-        }
-      }
-    },
-    "sponsors": {
-      "title": "Sponsoren"
     }
   },
   "footer": {
@@ -94,6 +19,81 @@
     "source": "Quellcode",
     "title": "Footer"
   },
+  "home": {
+    "about": {
+      "desc": "Ihr startet in den Master am KIT - mit uns seid ihr bereit für das nächste Level! Neben Einblicken in das Masterstudium am KIT geht es bei uns in der O-Phase vor allem darum, gleichgesinnte Kommilitonen kennenzulernen. Dafür haben wir unter anderem einen Cocktailabend, eine Kneipentour sowie sportlichere Aktivitäten wie den Besuch bei Ninja World, oder dem Europabad und gemeinsame Essen geplant. Wir freuen uns auf euch und stehen euch gerne mit Rat und Tat zur Seite.",
+      "title": "Hey! Wir sind die Master O-Phasen-Gruppe Level 42!"
+    },
+    "links": {
+      "karlsruhe": {
+        "kvv": {
+          "desc": "Öffentlicher Nahverkehr mit Online-Ticketshop und aktueller Störungs- bzw. Umleitungsübersicht",
+          "title": "Karlsruher Verkehrsverbund (KVV)"
+        },
+        "title": "Karlsruhe",
+        "z10": {
+          "desc": "Das selbstverwaltete Studierendenzentrum mit Bar in der Zähringerstraße 10",
+          "title": "Z10"
+        }
+      },
+      "o-phase": {
+        "asta": {
+          "desc": "Unterkünfte im HaDiKo (Oststadt) für alle, die während der O-Phase noch keinen Schlafplatz in KA haben",
+          "title": "AStA Notunterkünfte"
+        },
+        "map": {
+          "desc": "Ist auch nicht so übersichtlich, hilft aber trotzdem",
+          "title": "Offizieller Campusplan"
+        },
+        "title": "O-Phase",
+        "website": {
+          "desc": "Die offizielle Website der Fachschaft Mathe/Info zur O-Phase",
+          "title": "o-phase.com"
+        }
+      },
+      "study": {
+        "asta": {
+          "desc": "Eure Vertretung gegenüber der Uni",
+          "title": "Allgemeiner Studierenden-Ausschuss (AStA)"
+        },
+        "cms": {
+          "desc": "Alle Module auf einem Blick",
+          "title": "Offizielles Vorlesungsverzeichnis"
+        },
+        "fsmi": {
+          "desc": "Eure Vertretung gegenüber der Fakultät",
+          "title": "Fachschaft Mathe/Info"
+        },
+        "ilias": {
+          "desc": "Lernplattform des KIT",
+          "title": "KIT-ILIAS"
+        },
+        "sw-ka": {
+          "desc": "Betreibt Mensa, Wohnheime und mehr",
+          "title": "Studierendenwerk Karlsruhe (StuWe)"
+        },
+        "title": "Rund ums Studium"
+      },
+      "title": "Dateien&nbsp;& Links"
+    },
+    "program": {
+      "plan": {
+        "detailed": "Detaillierter Wochenplan",
+        "google": "Wochenplan integrieren (Google)",
+        "ical": "Wochenplan herunterladen (iCal)"
+      },
+      "title": "Programm"
+    },
+    "sponsors": {
+      "title": "Sponsoren"
+    },
+    "tutors": {
+      "computer_science": "Informatik",
+      "master": "Master",
+      "semester": "Semester",
+      "title": "Tutoren"
+    }
+  },
   "imprint": {
     "contact": "Kontakt",
     "declaration": "Angaben gemäß § 5 TMG",
@@ -103,10 +103,10 @@
   },
   "nav": {
     "about": "Über&nbsp;uns",
-    "tutors": "Tutoren",
-    "program": "Programm",
+    "home": "Start",
     "links": "Links",
-    "home": "Start"
+    "program": "Programm",
+    "tutors": "Tutoren"
   },
   "privacy": {
     "cookies": {
