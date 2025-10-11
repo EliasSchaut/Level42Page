@@ -8,10 +8,14 @@
       :alt="`image of ${name}`"
     />
     <div class="text-center">
-      <p class="text-lg font-bold text-prime-600 dark:text-prime-500">
+      <p class="text-prime-600 dark:text-prime-500 text-lg font-bold">
         {{ name }}
       </p>
-      <p>{{ title }}</p>
+      <p>
+        {{ semester }}. {{ $t('home.tutors.semester') }}
+        {{ field ?? $t('home.tutors.computer_science') }}
+        {{ $t('home.tutors.master') }}
+      </p>
     </div>
   </div>
 </template>
@@ -22,9 +26,13 @@ defineProps({
     type: String,
     required: true,
   },
-  title: {
+  semester: {
     type: String,
     required: true,
+  },
+  field: {
+    type: String,
+    default: null,
   },
   image_src: {
     type: String,

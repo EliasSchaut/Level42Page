@@ -11,7 +11,7 @@
       />
     </Glowing>
     <SectionTitle class="text-4xl font-bold"
-      >Level&nbsp;42 – Das nächste Level
+      >Level&nbsp;42 – {{ $t('common.tagline') }}
     </SectionTitle>
   </section>
 
@@ -21,16 +21,11 @@
       class="flex flex-col items-center justify-around space-y-5 space-x-4 md:flex-row"
     >
       <div class="text-left text-lg lg:w-[700px]">
-        <b class="text-prime-600 dark:text-prime-500"
-          >Hey! Wir sind die Master O-Phasen-Gruppe Level 42!</b
+        <b class="text-prime-600 dark:text-prime-500">{{
+          $t('home.about.title')
+        }}</b
         ><br />
-        Ihr startet in den Master am KIT - mit uns seid ihr bereit für
-        <i>das nächste Level</i>! Neben Einblicken in das Masterstudium am KIT
-        geht es bei uns in der O-Phase vor allem darum, gleichgesinnte
-        Kommilitonen kennenzulernen. Dafür haben wir unter anderem einen
-        Cocktailabend, eine Kneipentour sowie sportlichere Aktivitäten wie den
-        Besuch bei Ninja World, oder dem Europabad und gemeinsame Essen geplant.
-        Wir freuen uns auf euch und stehen euch gerne mit Rat und Tat zur Seite.
+        {{ $t('home.about.desc') }}
       </div>
       <img
         class="h-[184px] w-[220px] select-none"
@@ -42,103 +37,96 @@
 
   <!-- Tutors -->
   <section id="tutors" class="mx-auto px-5">
-    <SectionTitle>Tutoren</SectionTitle>
+    <SectionTitle>{{ $t('home.tutors.title') }}</SectionTitle>
     <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
       <li>
         <Tutor
           name="Adrian Junge"
-          title="5. Semester Info Master"
+          semester="5"
           image_src="/img/tutors/adrian_junge.png"
         />
       </li>
       <li>
         <Tutor
           name="Anna Kaiser"
-          title="3. Semester Info Master"
+          semester="3"
           image_src="/img/tutors/anna_kaiser.png"
         />
       </li>
       <li>
         <Tutor
           name="Chrissy Wenzel"
-          title="3. Semester Info Master"
+          semester="3"
           image_src="/img/tutors/chrissy_wenzel.jpg"
         />
       </li>
       <li>
-        <Tutor
-          name="Eileen Fix"
-          title="6. Semester Info Master"
-          image_src="/img/tutors/sun.png"
-        />
+        <Tutor name="Eileen Fix" semester="6" image_src="/img/tutors/sun.png" />
       </li>
       <li>
         <Tutor
           name="Elias Schaut"
-          title="3. Semester Info Master"
+          semester="3"
           image_src="/img/tutors/elias_schaut.png"
         />
       </li>
       <li>
         <Tutor
           name="Jenny Hilgenberg"
-          title="3. Semester Info Master"
+          semester="3"
           image_src="/img/tutors/placeholder.png"
         />
       </li>
       <li>
         <Tutor
           name="Joannes Gölz"
-          title="3. Semester Info Master"
+          semester="3"
           image_src="/img/tutors/johannes_goelz.png"
         />
       </li>
       <li>
-        <Tutor
-          name="Lam Vo"
-          title="3. Semester Info Master"
-          image_src="/img/tutors/lam_vo.png"
-        />
+        <Tutor name="Lam Vo" semester="3" image_src="/img/tutors/lam_vo.png" />
       </li>
       <li>
         <Tutor
           name="Laura Blechschmidt"
-          title="1. Semester Info Master"
+          semester="1"
           image_src="/img/tutors/laura_blechschmidt.png"
         />
       </li>
       <li>
         <Tutor
           name="Lukas Zetto"
-          title="3. Semester Info Master"
+          semester="3"
           image_src="/img/tutors/lukas_zetto.png"
         />
       </li>
       <li>
         <Tutor
           name="Max Wurthmann"
-          title="3. Semester Info Master"
+          semester="3"
           image_src="/img/tutors/max_wurthmann.png"
         />
       </li>
       <li>
         <Tutor
           name="Natalie Abels"
-          title="3. Semester Info Master"
+          semester="3"
           image_src="/img/tutors/natalie_abels.png"
         />
       </li>
       <li>
         <Tutor
           name="Nick Poser"
-          title="3. Semester Info Master"
+          semester="3"
           image_src="/img/tutors/nick_poser.png"
         />
       </li>
       <li>
         <Tutor
           name="Paul Städter"
-          title="3. Semester WMathe Master"
+          semester="3"
+          field="WMathe"
           image_src="/img/tutors/paul_staedter.png"
         />
       </li>
@@ -147,23 +135,23 @@
 
   <!-- Program -->
   <section id="program" class="mx-auto">
-    <SectionTitle>Programm</SectionTitle>
+    <SectionTitle>{{ $t('home.program.title') }}</SectionTitle>
     <div
       class="text-prime-600 dark:text-prime-400 mx-5 mb-4 flex flex-col items-center justify-center gap-6 text-center text-lg font-medium md:flex-row"
     >
       <a
         href="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FBerlin&bgcolor=%23EF6C00&showTz=0&mode=WEEK&showTabs=0&showCalendars=0&showTitle=0&showPrint=0&showDate=0&showNav=0&src=ZTkwODM3Y2ZmZWI0ZGI3OTE4M2Y3ZDc4NDc0NGNiZjdhZDZhNjQ5NjE2M2E4YzNmMmJmYTk0ODdhN2MyM2Q2ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23EF6C00&dates=20241014/20241020"
         target="_blank"
-        >Detaillierter Wochenplan</a
+        >{{ $t('home.program.plan.detailed') }}</a
       >
       <a
         href="https://calendar.google.com/calendar/u/0?cid=ZTkwODM3Y2ZmZWI0ZGI3OTE4M2Y3ZDc4NDc0NGNiZjdhZDZhNjQ5NjE2M2E4YzNmMmJmYTk0ODdhN2MyM2Q2ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
         target="_blank"
-        >Wochenplan integrieren (Google)</a
+        >{{ $t('home.program.plan.google') }}</a
       >
       <a
         href="https://calendar.google.com/calendar/ical/e90837cffeb4db79183f7d784744cbf7ad6a6496163a8c3f2bfa9487a7c23d6e%40group.calendar.google.com/public/basic.ics"
-        >Wochenplan herunterladen (iCal)</a
+        >{{ $t('home.program.plan.ical') }}</a
       >
     </div>
 
@@ -172,78 +160,77 @@
 
   <!-- Links -->
   <section id="links" class="mx-auto mb-10 px-10">
-    <SectionTitle>Dateien&nbsp;& Links</SectionTitle>
+    <SectionTitle v-html="$t('home.links.title')" />
     <div
       class="grid grid-cols-1 space-y-12 md:grid-cols-3 md:space-y-0 md:space-x-12"
     >
       <div class="flex flex-col space-y-5">
         <h1 class="text-prime-600 dark:text-prime-500 text-xl font-bold">
-          O-Phase
+          {{ $t('home.links.o-phase.title') }}
         </h1>
         <div class="flex flex-col space-y-3">
           <LinkItem
-            title="o-phase.com"
-            description="Die offizielle Website der Fachschaft Mathe/Info zur O-Phase"
+            :title="$t('home.links.o-phase.website.title')"
+            :description="$t('home.links.o-phase.website.desc')"
             href="https://o-phase.com"
           />
           <LinkItem
-            title="AStA Notunterkünfte"
-            description="Unterkünfte im HaDiKo (Oststadt) für alle, die während der O-Phase noch keinen Schlafplatz in KA haben
-"
+            :title="$t('home.links.o-phase.asta.title')"
+            :description="$t('home.links.o-phase.asta.desc')"
             href="https://www.asta-kit.de/de/notunterkuenfte"
           />
           <LinkItem
-            title="Offizieller Campusplan"
-            description="ist auch nicht so übersichtlich, hilft aber trotzdem"
+            :title="$t('home.links.o-phase.map.title')"
+            :description="$t('home.links.o-phase.map.desc')"
             href="https://www.kit.edu/campusplan/"
           />
         </div>
       </div>
       <div class="flex flex-col space-y-5">
         <h1 class="text-prime-600 dark:text-prime-500 text-xl font-bold">
-          Rund um Studium
+          {{ $t('home.links.study.title') }}
         </h1>
         <div class="flex flex-col space-y-3">
           <LinkItem
-            title="Offizielles Vorlesungsverzeichnis"
-            description="Alle Module auf einem Blick"
+            :title="$t('home.links.study.cms.title')"
+            :description="$t('home.links.study.cms.desc')"
             href="https://campus.studium.kit.edu/events/catalog.php"
           />
           <LinkItem
-            title="KIT-Ilias"
-            description="Lernplattform des KIT"
+            :title="$t('home.links.study.ilias.title')"
+            :description="$t('home.links.study.ilias.desc')"
             href="https://ilias.studium.kit.edu/"
           />
           <LinkItem
-            title="Fachschaft Mathe/Info"
-            description="Eure Vertretung gegenüber der Fakultät"
+            :title="$t('home.links.study.fsmi.title')"
+            :description="$t('home.links.study.fsmi.desc')"
             href="https://www.fsmi.uni-karlsruhe.de/"
           />
           <LinkItem
-            title="Allgemeiner Studierenden-Ausschuss (AStA)"
-            description="Eure Vertretung gegenüber der Uni"
+            :title="$t('home.links.study.asta.title')"
+            :description="$t('home.links.study.asta.desc')"
             href="https://www.asta-kit.de/"
           />
           <LinkItem
-            title="Studierendenwerk Karlsruhe (StuWe)"
-            description="Betreibt Mensa, Wohnheime und mehr"
+            :title="$t('home.links.study.sw-ka.title')"
+            :description="$t('home.links.study.sw-ka.desc')"
             href="https://www.sw-ka.de/"
           />
         </div>
       </div>
       <div class="flex flex-col space-y-5">
         <h1 class="text-prime-600 dark:text-prime-500 text-xl font-bold">
-          Karlsruhe
+          {{ $t('home.links.karlsruhe.title') }}
         </h1>
         <div class="flex flex-col space-y-3">
           <LinkItem
-            title="Z10"
-            description="Das selbstverwaltete Studierendenzentrum mit Bar in der Zähringerstraße 10"
+            :title="$t('home.links.karlsruhe.z10.title')"
+            :description="$t('home.links.karlsruhe.z10.desc')"
             href="https://www.z10.info/"
           />
           <LinkItem
-            title="Karlsruher Verkehrsverbund (KVV)"
-            description="Öffentlicher Nahverkehr mit Online-Ticketshop und aktueller Störungs- bzw. Umleitungsübersicht"
+            :title="$t('home.links.karlsruhe.kvv.title')"
+            :description="$t('home.links.karlsruhe.kvv.desc')"
             href="https://www.kvv.de/"
           />
         </div>
@@ -253,7 +240,7 @@
 
   <!-- Links -->
   <section id="sponsors" class="mx-auto mb-10 px-10">
-    <SectionTitle>Sponsoren</SectionTitle>
+    <SectionTitle>{{ $t('home.sponsors.title') }}</SectionTitle>
     <div
       class="flex w-full flex-col items-center justify-center md:flex-row md:space-y-0 md:space-x-48"
     >
@@ -266,4 +253,3 @@
     </div>
   </section>
 </template>
-<script setup lang="ts"></script>

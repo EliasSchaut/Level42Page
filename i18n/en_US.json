@@ -8,6 +8,13 @@
       "dark": "Dark",
       "light": "Light",
       "system": "System"
+    },
+    "tagline": "The next Level"
+  },
+  "home": {
+    "about": {
+      "title": "",
+      "desc": ""
     }
   },
   "footer": {
