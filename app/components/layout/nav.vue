@@ -11,10 +11,10 @@
             <a href="/#about" v-html="$t('nav.about')" />
           </li>
           <li class="hidden sm:list-item">
-            <a href="/#tutors">{{ $t('nav.tutors') }}</a>
+            <a href="/#program">{{ $t('nav.program') }}</a>
           </li>
           <li class="hidden sm:list-item">
-            <a href="/#program">{{ $t('nav.program') }}</a>
+            <a href="/#tutors">{{ $t('nav.tutors') }}</a>
           </li>
           <li class="hidden sm:list-item">
             <a href="/#links">{{ $t('nav.links') }}</a>
@@ -24,7 +24,8 @@
         </ul>
       </div>
       <div class="bg-prime-500 dark:bg-prime-400 h-1 px-1" />
-      <!--<ButtonJoin label="Discord" href="https://discord.gg/KQrmnRcqVu" />-->
+      <ButtonJoin label="Discord" href="https://discord.gg/KQrmnRcqVu" />
     </nav>
   </header>
 </template>
+<script setup lang="ts"></script>

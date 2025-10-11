@@ -35,6 +35,31 @@
     </div>
   </section>
 
+  <!-- Program -->
+  <section id="program" class="mx-auto">
+    <SectionTitle>{{ $t('home.program.title') }}</SectionTitle>
+    <div
+      class="text-prime-600 dark:text-prime-400 mx-5 mb-4 flex flex-col items-center justify-center gap-6 text-center text-lg font-medium md:flex-row"
+    >
+      <a
+        href="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FBerlin&bgcolor=%23EF6C00&showTz=0&mode=WEEK&showTabs=0&showCalendars=0&showTitle=0&showPrint=0&showDate=0&showNav=0&src=ZTkwODM3Y2ZmZWI0ZGI3OTE4M2Y3ZDc4NDc0NGNiZjdhZDZhNjQ5NjE2M2E4YzNmMmJmYTk0ODdhN2MyM2Q2ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23EF6C00&dates=20241014/20241020"
+        target="_blank"
+        >{{ $t('home.program.plan.detailed') }}</a
+      >
+      <a
+        href="https://calendar.google.com/calendar/u/0?cid=ZTkwODM3Y2ZmZWI0ZGI3OTE4M2Y3ZDc4NDc0NGNiZjdhZDZhNjQ5NjE2M2E4YzNmMmJmYTk0ODdhN2MyM2Q2ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+        target="_blank"
+        >{{ $t('home.program.plan.google') }}</a
+      >
+      <a
+        href="https://calendar.google.com/calendar/ical/e90837cffeb4db79183f7d784744cbf7ad6a6496163a8c3f2bfa9487a7c23d6e%40group.calendar.google.com/public/basic.ics"
+        >{{ $t('home.program.plan.ical') }}</a
+      >
+    </div>
+
+    <img class="m-auto px-12" src="/img/wochenplan.png" alt="wochenplan" />
+  </section>
+
   <!-- Tutors -->
   <section id="tutors" class="mx-auto px-5">
     <SectionTitle>{{ $t('home.tutors.title') }}</SectionTitle>
@@ -133,34 +158,9 @@
     </ul>
   </section>
 
-  <!-- Program -->
-  <section id="program" class="mx-auto">
-    <SectionTitle>{{ $t('home.program.title') }}</SectionTitle>
-    <div
-      class="text-prime-600 dark:text-prime-400 mx-5 mb-4 flex flex-col items-center justify-center gap-6 text-center text-lg font-medium md:flex-row"
-    >
-      <a
-        href="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FBerlin&bgcolor=%23EF6C00&showTz=0&mode=WEEK&showTabs=0&showCalendars=0&showTitle=0&showPrint=0&showDate=0&showNav=0&src=ZTkwODM3Y2ZmZWI0ZGI3OTE4M2Y3ZDc4NDc0NGNiZjdhZDZhNjQ5NjE2M2E4YzNmMmJmYTk0ODdhN2MyM2Q2ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23EF6C00&dates=20241014/20241020"
-        target="_blank"
-        >{{ $t('home.program.plan.detailed') }}</a
-      >
-      <a
-        href="https://calendar.google.com/calendar/u/0?cid=ZTkwODM3Y2ZmZWI0ZGI3OTE4M2Y3ZDc4NDc0NGNiZjdhZDZhNjQ5NjE2M2E4YzNmMmJmYTk0ODdhN2MyM2Q2ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
-        target="_blank"
-        >{{ $t('home.program.plan.google') }}</a
-      >
-      <a
-        href="https://calendar.google.com/calendar/ical/e90837cffeb4db79183f7d784744cbf7ad6a6496163a8c3f2bfa9487a7c23d6e%40group.calendar.google.com/public/basic.ics"
-        >{{ $t('home.program.plan.ical') }}</a
-      >
-    </div>
-
-    <img class="m-auto px-8" src="/img/wochenplan.png" alt="wochenplan" />
-  </section>
-
   <!-- Links -->
   <section id="links" class="mx-auto mb-10 px-10">
-    <SectionTitle v-html="$t('home.links.title')" />
+    <SectionTitle>{{ $t('home.links.title') }}</SectionTitle>
     <div
       class="grid grid-cols-1 space-y-12 md:grid-cols-3 md:space-y-0 md:space-x-12"
     >
