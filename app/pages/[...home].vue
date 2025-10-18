@@ -231,15 +231,9 @@
   <!-- Links -->
   <section id="sponsors" class="mx-auto mb-10 px-10">
     <SectionTitle>{{ $t('home.sponsors.title') }}</SectionTitle>
-    <div
-      class="flex w-full flex-col items-center justify-center md:flex-row md:space-y-0 md:space-x-48"
-    >
-      <a href="https://andrena.de/" target="_blank"
-        ><img
-          class="mx-auto"
-          src="/img/sponsors/Andrena.png"
-          alt="Andrena Logo"
-      /></a>
+    <div class="flex items-center justify-center gap-12">
+      <Sponsor link="https://andrena.de/" name="andrena" />
+      <Sponsor link="https://objektkultur.de/" name="objektkultur" has_dark />
     </div>
   </section>
 </template>
