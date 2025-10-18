@@ -23,6 +23,7 @@
   </form>
 
   <div class="m-5 h-full" v-html="guess"></div>
+  <div class="hidden h-[80vh]" />
 </template>
 
 <script lang="ts">

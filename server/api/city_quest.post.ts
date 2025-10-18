@@ -4,10 +4,10 @@ const WRONG_SOLUTION = '<p>Wrong solution!</p>';
 
 export default defineEventHandler(async (event) => {
   const body = await readBody(event);
-  const guess = (body.guess).toLowerCase() as string;
+  const guess = body.guess.toLowerCase() as string;
 
   if (Object.keys(solutions).includes(guess)) {
-    return { body: solutions.blubb };
+    return { body: solutions[guess as keyof typeof solutions] };
   } else {
     return { body: WRONG_SOLUTION };
   }

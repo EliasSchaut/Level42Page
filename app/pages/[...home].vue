@@ -1,4 +1,6 @@
 <template>
+  <ButtonJoin label="Discord" href="https://discord.gg/KQrmnRcqVu" />
+
   <!-- Hero -->
   <section class="mx-auto my-16 flex flex-col items-center justify-center">
     <Glowing>
@@ -235,3 +237,4 @@
     </div>
   </section>
 </template>
+<script setup lang="ts"></script>

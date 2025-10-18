@@ -24,7 +24,6 @@
         </ul>
       </div>
       <div class="bg-prime-500 dark:bg-prime-400 h-1 px-1" />
-      <ButtonJoin label="Discord" href="https://discord.gg/KQrmnRcqVu" />
     </nav>
   </header>
 </template>
