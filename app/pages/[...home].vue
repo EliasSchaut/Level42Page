@@ -1,11 +1,9 @@
 <template>
   <!-- Hero -->
-  <section
-    class="mx-auto my-16 flex flex-col items-center justify-center space-y-5 p-5"
-  >
+  <section class="mx-auto my-16 flex flex-col items-center justify-center">
     <Glowing>
       <img
-        class="h-60 sm:h-96"
+        class="h-72 sm:h-[500px]"
         src="/svg/lvl42_logo_full.svg"
         alt="Level 42 Logo"
       />
