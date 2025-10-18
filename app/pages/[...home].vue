@@ -97,20 +97,10 @@
       </li>
       <li>
         <Tutor
-          name="Jenny Hilgenberg"
-          semester="3"
-          image_src="/img/tutors/placeholder.png"
-        />
-      </li>
-      <li>
-        <Tutor
           name="Joannes Gölz"
           semester="3"
           image_src="/img/tutors/johannes_goelz.png"
         />
-      </li>
-      <li>
-        <Tutor name="Lam Vo" semester="3" image_src="/img/tutors/lam_vo.png" />
       </li>
       <li>
         <Tutor
