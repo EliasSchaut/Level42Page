@@ -42,22 +42,26 @@
       class="text-prime-600 dark:text-prime-400 mx-5 mb-4 flex flex-col items-center justify-center gap-6 text-center text-lg font-medium md:flex-row"
     >
       <a
-        href="https://calendar.google.com/calendar/embed?height=600&wkst=2&ctz=Europe%2FBerlin&bgcolor=%23EF6C00&showTz=0&mode=WEEK&showTabs=0&showCalendars=0&showTitle=0&showPrint=0&showDate=0&showNav=0&src=ZTkwODM3Y2ZmZWI0ZGI3OTE4M2Y3ZDc4NDc0NGNiZjdhZDZhNjQ5NjE2M2E4YzNmMmJmYTk0ODdhN2MyM2Q2ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23EF6C00&dates=20241014/20241020"
+        href="https://calendar.google.com/calendar/u/0/embed?height=600&wkst=2&ctz=Europe/Berlin&bgcolor=%23EF6C00&showTz=0&mode=WEEK&showTabs=0&showCalendars=0&showTitle=0&showPrint=0&showDate=0&showNav=0&src=0df3e2b504b075862a7b77a2ed54c7b94638aa01bddae731fd848dc18373326b%40group.calendar.google.com&color=%23EF6C00&dates=20251020/20251026"
         target="_blank"
         >{{ $t('home.program.plan.detailed') }}</a
       >
       <a
-        href="https://calendar.google.com/calendar/u/0?cid=ZTkwODM3Y2ZmZWI0ZGI3OTE4M2Y3ZDc4NDc0NGNiZjdhZDZhNjQ5NjE2M2E4YzNmMmJmYTk0ODdhN2MyM2Q2ZUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+        href="https://calendar.google.com/calendar/u/0?cid=MGRmM2UyYjUwNGIwNzU4NjJhN2I3N2EyZWQ1NGM3Yjk0NjM4YWEwMWJkZGFlNzMxZmQ4NDhkYzE4MzczMzI2YkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
         target="_blank"
         >{{ $t('home.program.plan.google') }}</a
       >
       <a
-        href="https://calendar.google.com/calendar/ical/e90837cffeb4db79183f7d784744cbf7ad6a6496163a8c3f2bfa9487a7c23d6e%40group.calendar.google.com/public/basic.ics"
+        href="https://calendar.google.com/calendar/ical/0df3e2b504b075862a7b77a2ed54c7b94638aa01bddae731fd848dc18373326b%40group.calendar.google.com/public/basic.ics"
         >{{ $t('home.program.plan.ical') }}</a
       >
     </div>
 
-    <img class="m-auto px-12" src="/img/wochenplan.png" alt="wochenplan" />
+    <img
+      class="m-auto px-12"
+      :src="`/img/Wochenplan2025_${$i18n.locale}.png`"
+      alt="wochenplan"
+    />
   </section>
 
   <!-- Tutors -->
