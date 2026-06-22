@@ -13,6 +13,14 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
   ],
 
+  vite: {
+    optimizeDeps: {
+      include: [
+        '@heroicons/vue/24/outline',
+      ]
+    }
+  },
+
   typescript: {
     typeCheck: true,
   },
